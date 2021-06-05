@@ -1,5 +1,8 @@
 <?php
 
+use Spatie\Permission\Contracts\Permission;
+use Spatie\Permission\PermissionServiceProvider;
+
 return [
 
     /*
@@ -176,6 +179,7 @@ return [
         App\Providers\RouteServiceProvider::class,
         App\Providers\FortifyServiceProvider::class,
         App\Providers\JetstreamServiceProvider::class,
+        //Spatie\Permission\PermissionServiceProvider::class,
 
     ],
 
